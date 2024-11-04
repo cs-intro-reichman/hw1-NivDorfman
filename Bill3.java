@@ -6,6 +6,6 @@ public class Bill3 {
 	    String name1 = args[0];
             // calculates the price each diner should pay
       	    double cost = Math.ceil((Double.parseDouble(args[3]))/3); 
-            System.out.println("Dear " + args[0] + ", " + args[1] + ", and " + args[2] + ": pay " + cost + " shekels each");	
+            System.out.println("Dear " + args[2] + ", " + args[1] + ", and " + args[0] + ": pay " + cost + " shekels each");
 	}
 }
