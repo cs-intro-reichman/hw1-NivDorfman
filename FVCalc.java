@@ -10,4 +10,5 @@ public class FVCalc {
 		//calculates the future investment after x years by CurrentValue*(1+AnnualInterest)^year)
 		double FutureValue = CurrentValue*(Math.pow(1+AnnualInterest/100 , (double)year));
 		System.out.println("After " + year + " years, $" + CurrentValue + " saved at " + AnnualInterest + "% will yield $" + (int) FutureValue );
+	}
 }
