@@ -16,12 +16,7 @@ public class TimeFormat {
 		
 			if (hours >12)
 				{
-					if (hours != 23)
-					{
-						str += hours-12;
-					}
-					else
-						str += ((hours - 12) / 10) % 10;
+					str += hours-12;
 					if(minutes < 10)
 						System.out.println(str + ':' + '0' + minutes + " PM");
 					else
