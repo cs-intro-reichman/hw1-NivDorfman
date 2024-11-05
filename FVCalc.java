@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class FVCalc {
 	public static void main(String[] args){
 
-		String temp = args[0];   
 		int CurrentValue = Integer.parseInt(args[0]);
 		double AnnualInterest = Double.parseDouble(args[1]);
 		int year = Integer.parseInt(args[2]);
